@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: wheat;
+}
+
+article{
+    background-color: white;
+    padding-bottom: 30px;
+}
+
+table {
+    margin: auto;
+    border-spacing: 0px;
+}
+
+thead{
+    background-color: rgb(130, 184, 255);
+}
+
+tr th, td{
+    border-bottom: 1px solid black;
+}
+
+tr th:nth-child(2){
+    border-right: 1px solid black;
+}
+
+td{
+    text-align: right;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #f2f2f2;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #d1d0d0;
+}
+
+caption{
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 10px;
+}
+
+thead th {
+    padding: 10px;
+}
